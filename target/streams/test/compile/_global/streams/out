@@ -1,0 +1,15 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/amitrovantauro/Documents/credit-cards/src/test/scala/com/tauro/creditcards/HelloWorldSpec.scala:32:39: missing argument list for method impl in object CreditCards[0m
+[0m[[0m[31merror[0m] [0m[0mUnapplied methods are only converted to functions when a function type is expected.[0m
+[0m[[0m[31merror[0m] [0m[0mYou can make this conversion explicit by writing `impl _` or `impl(_)(_)` instead of `impl`.[0m
+[0m[[0m[31merror[0m] [0m[0m    val creditCards = CreditCards.impl[IO][0m
+[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/amitrovantauro/Documents/credit-cards/src/test/scala/com/tauro/creditcards/HelloWorldSpec.scala:7:17: Unused import[0m
+[0m[[0m[31merror[0m] [0m[0mimport io.circe.Json[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/amitrovantauro/Documents/credit-cards/src/test/scala/com/tauro/creditcards/HelloWorldSpec.scala:30:21: private val retCreditCards in class HelloWorldSpec is never used[0m
+[0m[[0m[31merror[0m] [0m[0m  private[this] val retCreditCards: IO[Response[IO]] = {[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/amitrovantauro/Documents/credit-cards/src/test/scala/com/tauro/creditcards/HelloWorldSpec.scala:31:9: local val getHW in value retCreditCards is never used[0m
+[0m[[0m[31merror[0m] [0m[0m    val getHW = Request[IO](Method.POST, uri"/creditcards")[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
