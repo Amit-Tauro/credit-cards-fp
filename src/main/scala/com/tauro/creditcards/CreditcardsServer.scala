@@ -22,7 +22,6 @@ object CreditcardsServer {
       // want to extract segments not checked
       // in the underlying routes.
       httpApp = (
-        CreditcardsRoutes.helloWorldRoutes[F](helloWorldAlg) <+>
         CreditcardsRoutes.creditCardRoutes[F](creditCardAlg)
       ).orNotFound
 

@@ -1,4 +1,13 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/amitrovantauro/Documents/credit-cards/src/main/scala/com/tauro/creditcards/CreditCards.scala:13:24: Unused import[0m
-[0m[[0m[31merror[0m] [0m[0mimport io.circe.parser._[0m
-[0m[[0m[31merror[0m] [0m[0m                       ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/amitrovantauro/Documents/credit-cards/src/main/scala/com/tauro/creditcards/CreditCardGateway.scala:18:75: F[_] takes no type parameters, expected: 1[0m
+[0m[[0m[31merror[0m] [0m[0mclass CreditCardGatewayImpl[F[_]](C: Client[F]) extends CreditCardGateway[F[_]] {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/amitrovantauro/Documents/credit-cards/src/main/scala/com/tauro/creditcards/CreditCardGateway.scala:20:33: org.http4s.Method does not take parameters[0m
+[0m[[0m[31merror[0m] [0m[0m    val csReq: Request[F] = POST(uri"https://app.clearscore.com/api/global/backend-tech-test/v1/cards").[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/amitrovantauro/Documents/credit-cards/src/main/scala/com/tauro/creditcards/CreditCardGateway.scala:22:19: Cannot decode into a value of type io.circe.Json, because no EntityDecoder[F, io.circe.Json] instance could be found.[0m
+[0m[[0m[31merror[0m] [0m[0m    C.expect[Json](csReq)[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/amitrovantauro/Documents/credit-cards/src/main/scala/com/tauro/creditcards/CreditCardGateway.scala:18:35: parameter value C in class CreditCardGatewayImpl is never used[0m
+[0m[[0m[31merror[0m] [0m[0mclass CreditCardGatewayImpl[F[_]](C: Client[F]) extends CreditCardGateway[F[_]] {[0m
+[0m[[0m[31merror[0m] [0m[0m                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
